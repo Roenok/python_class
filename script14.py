@@ -7,10 +7,10 @@ if door == '1':
     bear = raw_input("Enter 1 or 2: ")
     if bear == "1":
         print "The bear eats your legs off. Good job!"
-    if bear == "2":
+    elif bear == "2":
         print "The bear eats your legs off. Good job!"
     else:
-        print "You didn't %s . Bear runs away." % bear
+        print "You didn't %s. Bear runs away." % bear
 elif door == '2':
     print 'You stare into the endless abyss at Cthulhu\'s retina. What do you see?'
     print '1. Blueberries.'
@@ -22,6 +22,6 @@ elif door == '2':
     else:
         print 'The insanity rots your eyes into a pool of muck. Good Job!'
 else:
-    print 'You stumble around and fall on a knife and ide. Good job!'
+    print 'You stumble around and fall on a knife and die. Good job!'
 
 # Write your own adventure story using sudo code first, then real code.
